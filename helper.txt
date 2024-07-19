@@ -1,0 +1,1 @@
+docker run --name mysql_trello -e MYSQL_ROOT_PASSWORD=123 -e MYSQL_DATABASE=trello_dev -p 3306:3306 -d mysql:latest
